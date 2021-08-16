@@ -14,7 +14,8 @@ class LocaleController extends Controller
      */
     public function index()
     {
-        return view('locale');
+        $locale = Locale::paginate(5);
+        return view('locale', compact('locale') );
     }
 
     /**
