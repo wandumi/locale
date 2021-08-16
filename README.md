@@ -14,8 +14,6 @@ First clone the repository
 ```bash
   Clone the repository
   cd my-project
-  Run composer
-  Run npm install 
 ```
 
 Run composer and npm install
