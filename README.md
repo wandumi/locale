@@ -38,3 +38,20 @@ file and update the following fields as required
   DB_USERNAME: your username
   DB_PASSWORD: password to the database
 ```
+
+
+## Documentation
+
+
+The link to the profile is found on the dropdown of the users section.
+When loaded there are no loaded languages, these can be added through
+language URL, where it will require a name and the slug. Supported 
+languages at the moment (English and German)
+
+English, the slug is __en__ in small laters and 
+German, the slug is __de__
+
+The profile link when clicked shows the users information at the moment
+only the Language field is updated, once saved it sends an email to
+the logged in user, that updates the user that the language on his admin
+section has been changed.
